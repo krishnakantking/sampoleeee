@@ -1,0 +1,17 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#buttons-container {
+    margin-bottom: 20px;
+}
+
+#graph-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Adjust the number of columns as needed */
+    grid-gap: 20px;
+}
+
+.hidden {
+    display: none;
+}
